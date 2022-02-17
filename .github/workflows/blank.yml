@@ -37,6 +37,7 @@ jobs:
   my-deploy-nadael:
   
     runs-on: ubuntu-latest
+    needs: [my-testing-nadael]
     steps:
       - name: Deployi qaylery
         run: echo hima el deployn enq sksum
